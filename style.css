@@ -7,6 +7,24 @@
     scroll-behavior: smooth;
     
 }
+.header nav {
+    position: relative;
+    display: flex;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header nav {
+    max-width: 100%;
+    padding: 16px 87px;
+}
+nav img{
+    height: 200px;
+    padding-top: 5%;
+    margin-right: px;
+}
 html::-webkit-scrollbar-track{
     background: transparent;
 }
@@ -428,7 +446,7 @@ nav .content .links{
     font-weight: 550;
     margin-top: 10px;
     background:redorange;
-    color: white;
+    color:red;
     border-radius: 5px;
     border: none;
     transition: 0.5s ease;
